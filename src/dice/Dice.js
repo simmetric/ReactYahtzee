@@ -16,7 +16,7 @@ export class Dice extends React.Component {
 
     hold() {
         this.props.onHold();
-        this.setState({ isHeld: this.props.isHeld });
+        this.setState({ isHeld: true });
     }
 
     render() {
